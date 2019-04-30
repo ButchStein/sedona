@@ -1,0 +1,42 @@
+.header{
+  max-width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+}
+
+.header__nav {
+  max-width:100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  order: 0;
+}
+
+.nav__link {
+  max-width: 100%;
+  background-image: url(/img/link_mob_bg.png);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 2.2em;
+  order: 0;
+}
+.nav__link:nth-child(3) {
+  max-width: 100%;
+  height: auto;
+  order: 1;
+  background-image: url(/img/logotype_mob.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.header__logo {
+  visibility: hidden;
+}
+.header__image {
+  max-width: 100%;
+  height: auto;
+}
+

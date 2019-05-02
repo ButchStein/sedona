@@ -1,0 +1,14 @@
+.block-boxes{
+    margin-top: 25px;
+}
+
+.block-boxes__item{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    text-transform: uppercase;
+}
+
+.block-boxes__item-cont{
+    margin-left: 15px;
+}

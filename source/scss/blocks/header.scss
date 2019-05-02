@@ -1,4 +1,4 @@
-.header{
+.header {
   max-width: 100%;
   display: flex;
   flex-flow: column;
@@ -6,7 +6,7 @@
 }
 
 .header__nav {
-  max-width:100%;
+  max-width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -30,13 +30,27 @@
   background-image: url(/img/logotype_mob.png);
   background-repeat: no-repeat;
   background-position-x: center;
+  position: relative;
 }
 
+// .nav__link_active{
+
+//   background-image: url(/img/link_mob_active.png);
+//   background-repeat: no-repeat;
+// }
 .header__logo {
   visibility: hidden;
 }
-.header__image {
+img {
   max-width: 100%;
   height: auto;
 }
 
+.header__image {
+  max-width: 100%;
+  height: 389px;
+  background-image: url(/img/header_main_mob_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -50px;
+}

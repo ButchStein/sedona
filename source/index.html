@@ -14,14 +14,14 @@
     <div class="site__wrapper">
       <header class="header">
         <nav class="header__nav">
-          <a href="#" class="nav__link">Главная</a>
+          <a href="#" class="nav__link nav__link_active">Главная</a>
           <a href="#" class="nav__link">Фото и видео</a>
           <a href="#" class="nav__link">
             <img class="header__logo" src="./img/logotype.png" alt="triangle-logo"></a>
           <a href="#" class="nav__link">Форма отзыва</a>
           <a href="#" class="nav__link">HTML ACADEMY</a>
         </nav>
-        <img class="header__image" src="./img/header_mainbg.png" alt="picture">
+        <div class="header__image"></div>
       </header>
 
       <div class="content">
@@ -38,31 +38,47 @@
           <h2 class="block-skill__title">Настоящий городок</h2>
           <p class="block-skill__number">-№1-</p>
           <p class="block-skill__text">СЕДОНА не атракцион для туристов, там течет своя жизнь</p>
-          <img class="block-skill__img" src="./img/city_photo.jpg" alt="city">
+          <div class="block-skill__img-wrap">
+            <img class="block-skill__img" src="./img/city_photo.jpg" alt="city">
+          </div>
         </div>
       </div>
 
       <div class="block-boxes">
         <div class="block-boxes__item">
-          <img class="block-boxes__img" src="./img/icon-house.png">
-          <h2 class="block-boxes__name">жильё</h2>
-          <p class="block-boxes__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <div class="block-boxes__img-wrap">
+            <img class="block-boxes__img" src="./img/icon-house.png">
+          </div>
+          <div class="block-boxes__item-cont">
+            <h2 class="block-boxes__name">жилье</h2>
+            <p class="block-boxes__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </div>
         </div>
         <div class="block-boxes__item">
-          <img class="block-boxes__img" src="./img/icon-burger.png">
-          <h2 class="block-boxes__name">еда</h2>
-          <p class="block-boxes__text">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          <div class="block-boxes__img-wrap">
+            <img class="block-boxes__img" src="./img/icon-burger.png">
+          </div>
+          <div class="block-boxes__item-cont">
+            <h2 class="block-boxes__name">еда</h2>
+            <p class="block-boxes__text">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </div>
         </div>
         <div class="block-boxes__item">
-          <img class="block-boxes__img" src="./img/icon-gift.png">
-          <h2 class="block-boxes__name">сувениры</h2>
-          <p class="block-boxes__text">не только китайского, но и местного производства</p>
+          <div class="block-boxes__img-wrap">
+            <img class="block-boxes__img" src="./img/icon-gift.png">
+          </div>
+          <div class="block-boxes__item-cont">
+            <h2 class="block-boxes__name">сувениры</h2>
+            <p class="block-boxes__text">не только китайского, но и местного производства</p>
+          </div>
         </div>
       </div>
 
-      <div class="block-skills block-skills_reverse">
+      <div class="block-skills">
         <div class="block-skill">
-          <img class="block-skill__img" src="./img/bridge_photo.jpg" alt="bridge">
+          <div class="block-skill__img-wrap-rev">
+            <img class="block-skill__img" src="./img/bridge_photo.jpg" alt="bridge">
+          </div>
           <h2 class="block-skill__title">Там есть мост дьявола</h2>
           <p class="block-skill__number">-№2-</p>
           <p class="block-skill__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
@@ -70,17 +86,17 @@
       </div>
 
       <div class="block-skills-list">
-        <div class="block-skill">
+        <div class="block-skill block-skill_reverse block-skill_reverse-line">
           <h2 class="block-skill__title">Небольшая площадь</h2>
           <p class="block-skill__number">-№3-</p>
           <p class="block-skill__text">Все интересные места находятся очень близко</p>
         </div>
-        <div class="block-skill">
+        <div class="block-skill block-skill_reverse block-skill_reverse-line">
           <h2 class="block-skill__title">Красивая дорога</h2>
           <p class="block-skill__number">-№4-</p>
           <p class="block-skill__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </div>
-        <div class="block-skill">
+        <div class="block-skill block-skill_reverse">
           <h2 class="block-skill__title">Мало туристов</h2>
           <p class="block-skill__number">-№5-</p>
           <p class="block-skill__text">Большинство едет в гранд каньон и толпится там</p>
@@ -88,12 +104,14 @@
       </div>
 
       <div class="block-option">
-        <h1 class="block-option__title">заинтересовались?</h1>
+        <h2 class="block-option__title">заинтересовались?</h2>
         <p class="block-option__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
           в седоне
         </p>
         <a href="#" class="block-option__btn">найти гостиницу</a>
-        <img class="block-option__img" src="./img/map.jpg" alt="map">
+        <div class="block-option__img-wrap">
+          <img class="block-option__img" src="./img/map.jpg" alt="map">
+        </div>
       </div>
     </div>
     <footer class="footer">

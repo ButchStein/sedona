@@ -1,0 +1,45 @@
+.feedback-form__contacts {
+  order: -1;
+  background-image: url(/img/h_line.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  // align-items: center;
+  margin-top: 25px;
+}
+
+.feedback-form__contacts-input {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.feedback-form__contacts-input-name {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 20px 0 0 35px;
+}
+.feedback-form__input-phone {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  height: 58px;
+  background-image: url(/img/phone_input_mob.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+
+.feedback-form__input-email {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  height: 58px;
+  background-image: url(/img/email_input_mob.png);
+  background-position-x: right;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}

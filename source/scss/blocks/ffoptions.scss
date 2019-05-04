@@ -1,0 +1,37 @@
+.feedback-form__options {
+  background-image: url(/img/h_line.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.feedback-form__options-radio {
+  font-size: 18px;
+  font-weight: bold;
+  height: 58px;
+  display: block;
+  padding-left: 4.5em;
+  color: #000;
+  line-height: 3.1em;
+  margin: 6.25px 0 ;
+}
+.feedback-form__radio {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.check-radio {
+  position: absolute;
+  width: 3.2em;
+  height: 3.2em;
+  margin-left: -4.5em;
+  background-image: url(/img/radio_mob.png);
+  background-repeat: no-repeat;
+}
+.feedback-form__radio:checked + .check-radio {
+  background-image: url(/img/radio_checked_mob.png);
+  background-repeat: no-repeat;
+}

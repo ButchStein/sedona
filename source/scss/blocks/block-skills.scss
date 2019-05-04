@@ -7,14 +7,25 @@ img {
   margin-top: 25px;
 }
 .block-skill {
-  
+  font-size: 14px;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #81b3d2;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
+}
+.block-skill__title{
+  font-size: 21px;
+  padding-top: 40px;
+}
+.block-skill__number{
+  margin: 0;
+  
+}
+.block-skill__text{
+  padding-bottom: 30px;
 }
 .block-skill__img-wrap {
   max-width: 100%;
@@ -31,6 +42,6 @@ img {
   background-size: cover;
 }
 
-.block-skill__img{
+.block-skill__img {
   visibility: hidden;
 }

@@ -2,9 +2,16 @@
   min-width: 100%;
   display: flex;
   flex-flow: column;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 2em;
+}
+
+.content__title {
+  font-size: 18px;
+}
+
+.content__text{
+  font-size: 14px;
 }

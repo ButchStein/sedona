@@ -1,11 +1,30 @@
-.block-skill_reverse {
+.block-skill-reverse {
+  font-size: 14px;
   background-color: #eeeeee;
   color: #000;
+  display: flex;
+  flex-flow: column;
+  justify-content: center; 
+  text-transform: uppercase;
+  text-align: center;
 }
-.block-skill_reverse-line {
+.block-skill-reverse-line {
   background-image: url(/img/h_line.png);
   background-repeat: no-repeat;
   background-size: 95%;
   background-position-x: center;
   background-position-y: bottom;
+}
+
+.block-skill-reverse__title{
+  font-size: 21px;
+  padding-top: 15px;
+}
+.block-skill-reverse__number {
+  margin: 0;
+  color: #333;
+}
+.block-skill-reverse__text{
+  color: #333;
+  padding-bottom: 15px;
 }

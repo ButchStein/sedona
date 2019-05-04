@@ -1,0 +1,22 @@
+.feedback-form__person {
+  width: 100%;
+  order: -2;
+  background-image: url(/img/h_line.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: space-between;
+}
+.feedback-form__person-input {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  line-height: 4em;
+  margin-left: 10px;
+}
+.feedback-form__person-input-name {
+  color: #333;
+  text-transform: uppercase;
+  margin-left: 5px;
+}

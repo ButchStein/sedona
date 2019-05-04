@@ -3,6 +3,8 @@
 }
 
 .block-boxes__item{
+    font-size: 14px;
+    color: #333;
     display: flex;
     flex-flow: row;
     justify-content:space-between;
@@ -11,4 +13,8 @@
 
 .block-boxes__item-cont{
     margin-left: 15px;
+}
+.block-boxes__name{
+    font-size: 18px;
+    color: #000;
 }

@@ -1,0 +1,36 @@
+.feedback-form__attraction {
+  background-image: url(/img/h_line.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.feedback-form__attraction-checkbox {
+  font-size: 18px;
+  font-weight: bold;
+  height: 58px;
+  display: block;
+  padding-left: 4.5em;
+  color: #000;
+  line-height: 3.1em;
+  margin: 6.25px 0 6.25px 20px;
+}
+.feedback-form__checkbox {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.checkbox {
+  position: absolute;
+  width: 3.2em;
+  height: 3.2em;
+  margin-left: -4.5em;
+  background-image: url(/img/checkbox_mob.png);
+  background-repeat: no-repeat;
+}
+.feedback-form__checkbox:checked + .checkbox {
+  background-image: url(/img/checkbox_checked_mob.png);
+  background-repeat: no-repeat;
+}

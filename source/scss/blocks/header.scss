@@ -6,6 +6,8 @@
 }
 
 .header__nav {
+  font-size: 18px;
+  font-weight: bold;
   max-width: 100%;
   display: flex;
   flex-flow: column;
@@ -33,11 +35,6 @@
   position: relative;
 }
 
-// .nav__link_active{
-
-//   background-image: url(/img/link_mob_active.png);
-//   background-repeat: no-repeat;
-// }
 .header__logo {
   visibility: hidden;
 }

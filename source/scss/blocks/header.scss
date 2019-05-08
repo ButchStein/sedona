@@ -48,6 +48,43 @@ img {
   height: 389px;
   background-image: url(/img/header_main_mob_bg.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position-x: center;
+  background-size: cover;
   margin-top: -50px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-flow: column;
+    justify-content: center;
+  }
+  .header__nav {
+    font-size: 14px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+  }
+  .nav__link {
+    width: 20%;
+    background-image: none;
+    color: #000;
+    padding-top: 1.1%;
+  }
+  .nav__link:nth-child(3) {
+    order: 0;
+    background-image: url(/img/logotype_tab.png);
+    padding-top: 0;
+  }
+  .header__image {
+    height: 518px;
+    background-image: url(/img/header_main_tab_bg.png);
+    background-size: auto;
+    margin-top: -35px;
+  }
+  .header__image_mod {
+    height: 346px;
+    background-image: url(/img/header_form_tab.png);
+    background-size: auto;
+    background-position-y: -3em;
+  }
 }

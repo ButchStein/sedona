@@ -21,11 +21,34 @@
 
 @media (min-width: 768px) {
   .block-boxes__item {
-    display: block;
+    width: 33.3333%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
     text-align: center;
   }
   .block-boxes {
+    width: 100%;
+    height: 330px;
     display: flex;
+    flex-flow: row;
     justify-content: space-between;
+    margin-top: 0;
+  }
+  .block-boxes__item-cont {
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 0 14%;
+  }
+  .block-boxes__item-cont_food {
+    padding: 0 18%;
+  }
+  .block-boxes__name {
+    font-size: 21px;
+  }
+  .block-boxes__item_gift {
+    order: 1;
   }
 }

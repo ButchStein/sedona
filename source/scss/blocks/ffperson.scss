@@ -11,11 +11,12 @@
 .feedback-form__person-input {
   display: flex;
   flex-flow: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   line-height: 4em;
   margin-left: 10px;
 }
 .feedback-form__person-input-name {
+  min-width: min-content;
   color: #333;
   text-transform: uppercase;
   margin-left: 5px;

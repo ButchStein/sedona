@@ -5,7 +5,6 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  // align-items: center;
   margin-top: 25px;
 }
 
@@ -16,6 +15,7 @@
   background-color: #fff;
 }
 .feedback-form__contacts-input-name {
+  min-width: min-content;
   display: block;
   color: #333;
   font-size: 14px;

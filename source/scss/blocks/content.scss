@@ -10,8 +10,30 @@
 
 .content__title {
   font-size: 18px;
+  padding: 0 15px;
 }
 
-.content__text{
+.content__text {
   font-size: 14px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .content {
+    height: 205px;
+    justify-content: center;
+  }
+  .content-wrapper {
+    margin-top: -40px;
+  }
+  .content__title {
+    font-size: 21px;
+    padding: 0 65px;
+  }
+  .content__title_fpage {
+    font-size: 30px;
+  }
+  .content__text_fpage {
+    padding: 0 21%;
+  }
 }

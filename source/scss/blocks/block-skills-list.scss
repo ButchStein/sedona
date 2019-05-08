@@ -4,7 +4,7 @@
   color: #000;
   display: flex;
   flex-flow: column;
-  justify-content: center; 
+  justify-content: center;
   text-transform: uppercase;
   text-align: center;
 }
@@ -16,7 +16,7 @@
   background-position-y: bottom;
 }
 
-.block-skill-reverse__title{
+.block-skill-reverse__title {
   font-size: 21px;
   padding-top: 15px;
 }
@@ -24,7 +24,22 @@
   margin: 0;
   color: #333;
 }
-.block-skill-reverse__text{
+.block-skill-reverse__text {
   color: #333;
   padding-bottom: 15px;
+}
+@media (min-width: 768px) {
+  .block-skill-reverse-line {
+    background-image: none;
+  }
+  .block-skills-list {
+    min-height: 255px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .block-skill-reverse {
+    width: 33.3333%;
+    padding: 0 6.11%;
+  }
 }

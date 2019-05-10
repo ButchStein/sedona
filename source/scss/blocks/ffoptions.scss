@@ -37,3 +37,20 @@
   background-image: url(/img/radio_checked_mob.png);
   background-repeat: no-repeat;
 }
+
+@media (min-width: 768px) {
+  .feedback-form__options {
+    flex-flow:column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    width: 50%;
+    background-image: none;
+    order: -2;
+    border-right: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .feedback-form__item_options{
+    text-align: left;
+  }
+}

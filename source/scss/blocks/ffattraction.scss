@@ -36,3 +36,18 @@
   background-image: url(/img/checkbox_checked_mob.png);
   background-repeat: no-repeat;
 }
+@media (min-width: 768px) {
+  .feedback-form__attraction {
+    width: 100%;
+    background-image: none;
+    justify-content: center;
+    margin-top: 55px;
+  }
+  .feedback-form__item_attraction {
+    width: 61.4197%;
+  }
+  .feedback-form__attraction-checkbox {
+    width: 130px;
+    margin: 20px 25px;
+  }
+}

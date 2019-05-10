@@ -20,4 +20,28 @@
   color: #333;
   text-transform: uppercase;
   margin-left: 5px;
+  padding-right: 10px;
+}
+@media (min-width: 768px) {
+  .feedback-form__person {
+    width: 50%;
+    background-image: none;
+    order: -1;
+    
+  }
+  .feedback-form__item_person{
+    text-align: left;
+    padding-left: 50px;
+  }
+  .feedback-form__person-input-name {
+    padding-left: 45px;
+    font-size: 14px;
+  }
+  .feedback-form__person-input {
+    display: flex;
+    align-items: center;
+    height: 58px;
+    width: 100%;
+    margin: 6.25px 0;
+  }
 }

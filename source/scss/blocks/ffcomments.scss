@@ -28,3 +28,30 @@
 .feedback-form__note {
   display: none;
 }
+
+@media (min-width: 768px) {
+  .feedback-form__comments {
+    background-image: none;
+    width: 100%;
+    margin-top: 70px;
+    flex-flow: row wrap;
+  }
+  .feedback-form__comments-text {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .feedback-form__note {
+    width: 50%;
+    display: block;
+    height: min-content;
+    text-align: right;
+    margin-top: 80px;
+  }
+  .feedback-form__item_comments {
+    width: 61.4197%;
+  }
+  .feedback-form__rowline {
+    display: block;
+  }
+}

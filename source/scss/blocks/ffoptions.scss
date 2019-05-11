@@ -40,9 +40,9 @@
 
 @media (min-width: 768px) {
   .feedback-form__options {
-    flex-flow:column;
+    flex-flow: column;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: flex-start;
     width: 50%;
     background-image: none;
     order: -2;
@@ -50,7 +50,7 @@
     box-sizing: border-box;
     margin: 0;
   }
-  .feedback-form__item_options{
+  .feedback-form__item_options {
     text-align: left;
   }
 }

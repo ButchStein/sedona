@@ -4,7 +4,6 @@
   text-transform: uppercase;
   color: #000;
 }
-
 .block-option__title {
   font-size: 21px;
   margin-top: 30px;
@@ -32,7 +31,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 .block-option__img {
   visibility: hidden;
 }
@@ -44,7 +42,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .block-option{
+  .block-option {
     display: flex;
     flex-flow: column;
     justify-content: space-around;
@@ -62,6 +60,5 @@ img {
   .block-option__img-wrap {
     height: 350px;
     background-image: url(/img/map_tab.jpg);
-    
   }
-  }
+}

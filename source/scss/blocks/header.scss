@@ -4,7 +4,6 @@
   flex-flow: column;
   justify-content: flex-start;
 }
-
 .header__nav {
   font-size: 18px;
   font-weight: bold;
@@ -14,7 +13,6 @@
   justify-content: center;
   order: 0;
 }
-
 .nav__link {
   max-width: 100%;
   background-image: url(/img/link_mob_bg.png);
@@ -34,7 +32,6 @@
   background-position-x: center;
   position: relative;
 }
-
 .header__logo {
   visibility: hidden;
 }
@@ -42,7 +39,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 .header__image {
   max-width: 100%;
   height: 389px;
@@ -78,7 +74,7 @@ img {
   .header__image {
     height: 518px;
     background-image: url(/img/header_main_tab_bg.png);
-    background-size: auto;
+    background-size: cover;
     margin-top: -35px;
   }
   .header__image_mod {

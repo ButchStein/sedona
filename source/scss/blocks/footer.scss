@@ -4,7 +4,6 @@
   justify-content: space-around;
   align-items: center;
 }
-
 .footer-left {
   margin-top: 40px;
 }
@@ -20,7 +19,6 @@
   flex-flow: row nowrap;
   justify-content: center;
 }
-
 .footer-center__link {
   width: 47px;
   height: 48px;
@@ -33,7 +31,6 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .footer-center__link_facebook {
   max-width: 100%;
 
@@ -46,7 +43,6 @@
   background-image: url(/img/icon_youtube_mob.png);
   background-repeat: no-repeat;
 }
-
 .footer-right {
   display: flex;
   flex-flow: row wrap;
@@ -54,10 +50,10 @@
   align-items: center;
   text-transform: uppercase;
 }
-
 .footer-right__link {
   margin-left: 10px;
 }
+
 @media (min-width: 768px) {
   .footer {
     flex-flow: row;

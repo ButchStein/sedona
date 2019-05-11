@@ -1,5 +1,16 @@
-.content__video{
-    max-width: 100%;
-    height: 200px;
-    margin-bottom: 40px;
+.content__video {
+  min-width: 100%;
+  height: 200px;
+  margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+  .content__video-wrap {
+    margin: 0 60px;
+  }
+  .content__video {
+    margin: 50px 0 40px 0;
+  }
+  .content__text-video {
+    padding: 0 160px;
+  }
 }

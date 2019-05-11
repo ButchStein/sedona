@@ -1,37 +1,49 @@
 .content {
-  min-width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: space-around;
   align-content: center;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 45px;
 }
-
 .content__title {
   font-size: 18px;
   padding: 0 15px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
 }
-
 .content__text {
   font-size: 14px;
   color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content__text-video {
+  padding: 0 20px;
 }
 
 @media (min-width: 768px) {
   .content {
-    height: 205px;
+    flex-flow: row wrap;
     justify-content: center;
+    margin-top: 40px;
   }
-  .content-wrapper {
-    width: 100%;
-    margin-top: -40px;
+  .content-mod {
+    margin-top: -10px;
   }
   .content__title {
+    width: 100%;
     font-size: 21px;
+  }
+  .content__title_ipage {
     padding: 0 65px;
   }
   .content__title_fpage {
+    font-size: 30px;
+  }
+  .content__title_gpage {
     font-size: 30px;
   }
   .content__text_fpage {

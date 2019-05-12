@@ -62,3 +62,11 @@ img {
     background-image: url(/img/map_tab.jpg);
   }
 }
+@media (min-width: 1200px) {
+  .block-option__text {
+    padding: 0 33%;
+  }
+  .block-option__img-wrap {
+    background-image: url(/img/map_desk.jpg);
+  }
+}

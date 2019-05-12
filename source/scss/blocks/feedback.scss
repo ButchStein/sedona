@@ -53,7 +53,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 70px 60px 55px;
+    margin: 70px 60px 60px;
   }
 
   .feedback-form__item {
@@ -71,6 +71,7 @@
   }
   .feedback-form__btn {
     width: 50%;
+    margin-top: 60px;
   }
   .feedback-form__rowline{
     display: block;
@@ -79,5 +80,13 @@
     background-position: center;
     background-repeat:repeat-x;
     background-position-y: 20%;
+  }
+}
+@media (min-width:1200px){
+  .feedback-form{
+    margin: 70px 120px 60px;
+  }
+  .feedback-form__rowline{
+    width: 30.4347%;
   }
 }

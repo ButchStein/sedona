@@ -59,3 +59,34 @@
     width: 61.4197%;
   }
 }
+@media (min-width: 1200px) {
+  .feedback-form__contacts {
+    justify-content: space-between;
+  }
+  .feedback-form__item_contacts {
+    width: 39.1306%;
+  }
+  .feedback-form__contacts-input-name {
+    display: block;
+    margin: 0  18px 0 0;
+  }
+  .feedback-form__contacts-input-name_hide {
+    display: none;
+  }
+
+  .feedback-form__contacts-input {
+    width: 50%;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    line-height: 5.7em;
+    
+  }
+  .feedback-form__input-phone {
+    width: 315px;
+    box-sizing: border-box;
+  }
+  .feedback-form__input-email {
+    width: 315px;
+    box-sizing: border-box;
+  }
+}

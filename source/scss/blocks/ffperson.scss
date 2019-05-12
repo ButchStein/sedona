@@ -45,3 +45,11 @@
     margin: 6.25px 0;
   }
 }
+@media (min-width: 1200px) {
+  .feedback-form__item_person {
+    padding-left: 85px;
+  }
+  .feedback-form__person-input-name {
+    padding-left: 80px;
+  }
+}

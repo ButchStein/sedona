@@ -3,6 +3,7 @@
   display: flex;
   flex-flow: column;
   justify-content: flex-start;
+  position: relative;
 }
 .header__nav {
   font-size: 18px;
@@ -31,6 +32,7 @@
   background-repeat: no-repeat;
   background-position-x: center;
   position: relative;
+  z-index: 9999;
 }
 .header__logo {
   visibility: hidden;
@@ -44,9 +46,37 @@ img {
   height: 389px;
   background-image: url(/img/header_main_mob_bg.png);
   background-repeat: no-repeat;
-  background-position-x: center;
+  background-position: 50% 100%;
+  background-size: 100%;
+  margin-top: -75px;
+  position: relative;
+}
+.header__image_mod {
+  height: 160px;
+  background-position: 50% 100%;
+  margin-top: -55px;
+}
+.header__image-text {
+  max-width: 100%;
+  height: 389px;
+  background-image: url(/img/header_text_mob_bg.png);
+  background-repeat: no-repeat;
+  background-position: 50% 57%;
+  background-size: 90%;
+}
+.header__image-text_mod {
+  background-image: url(/img/header_text_mod.png);
+  background-position: 50% 17.5%;
+  background-size: 75%;
+}
+.header__bottom {
+  width: 100%;
+  height: 27px;
+  background-image: url(/img/header_bgintro.png);
+  background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -50px;
+  position: absolute;
+  bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -77,10 +107,58 @@ img {
     background-size: cover;
     margin-top: -35px;
   }
+  .header__image-text {
+    max-width: 100%;
+    height: 518px;
+    background-image: url(/img/header_text_tab.png);
+    background-position: 50% 45%;
+    background-size: 60%;
+  }
+  .header__bottom {
+    height: 57px;
+    background-image: url(/img/header_tab_intro.png);
+    background-position: center bottom;
+  }
   .header__image_mod {
-    height: 346px;
-    background-image: url(/img/header_form_tab.png);
-    background-size: cover;
-    background-position-y: -3em;
+    height: 288px;
+    background-image: url(/img/header_tab_mod.png);
+    background-position: center -50px;
+  }
+  .header__image-text_mod {
+    height: 288px;
+    background-image: url(/img/header_text_tab_mod.png);
+    background-position: 50% 46.5%;
+    background-size: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav__link:nth-child(3) {
+    background-image: url(/img/logotype.png);
+  }
+  .header__image {
+    height: 518px;
+    background-image: url(/img/header_bg.png);
+  }
+  .header__image-text {
+    max-width: 100%;
+    height: 518px;
+    background-image: url(/img/header_text_desk.png);
+    background-size: 40%;
+  }
+  .header__bottom {
+    background-image: url(/img/header_intro.png);
+    background-position: center bottom;
+  }
+  .header__image_mod {
+    height: 302px;
+    background-image: url(/img/header_mod.png);
+    background-position: center -50px;
+  }
+  .header__image-text_mod {
+    height: 288px;
+    background-image: url(/img/header_text_desk_mod.png);
+    background-position: 50% 50%;
+    background-size: 39%;
   }
 }

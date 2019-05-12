@@ -1,0 +1,13 @@
+.site {
+  background-color: #fff;
+}
+@media (min-width: 1200px) {
+  .site {
+    background-color: #f2f2f2;
+  }
+  .site__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+}

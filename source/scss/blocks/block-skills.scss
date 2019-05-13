@@ -86,3 +86,11 @@ img {
     margin-top: 0;
   }
 }
+@media (min-width: 1200px) {
+  .block-skill__img-wrap {
+    background-image: url(/img/city_photo_desk.jpg);
+  }
+  .block-skill__img-wrap-rev {
+    background-image: url(/img/bridge_photo_desk.jpg);
+  }
+}

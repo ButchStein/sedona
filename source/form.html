@@ -57,15 +57,29 @@
 					<h2 class="feedback-form__item feedback-form__item_person">представьтесь:</h2>
 					<label class="feedback-form__person-input">
 						<span class="feedback-form__person-input-name">Имя*:</span>
-						<input type="text" class="feedback-form__input" placeholder="Петр" required>
+						<input type="text" class="feedback-form__input" id="name" placeholder="Петр" maxlength="100" required>
+						<ul class="input-requirements">
+							<li>Не оставлять пустым</li>
+							<li>Не вводить специальные символы</li>
+						</ul>
 					</label>
+
 					<label class="feedback-form__person-input">
 						<span class="feedback-form__person-input-name">Фамилия*:</span>
-						<input type="text" class="feedback-form__input" placeholder="Иванов" required>
+						<input type="text" class="feedback-form__input" id="surname" placeholder="Иванов" maxlength="100" required>
+						<ul class="input-requirements">
+							<li>Не оставлять пустым</li>
+							<li>Не вводить специальные символы</li>
+						</ul>
 					</label>
 					<label class="feedback-form__person-input">
 						<span class="feedback-form__person-input-name">Отчество:</span>
-						<input type="text" class="feedback-form__input" placeholder="Александрович">
+						<input type="text" class="feedback-form__input" id="father-name" placeholder="Александрович"
+							maxlength="100">
+						<ul class="input-requirements">
+							<li>Не оставлять пустым</li>
+							<li>Не вводить специальные символы</li>
+						</ul>
 					</label>
 				</div>
 				<div class="feedback-form__contacts">
@@ -73,7 +87,8 @@
 					<h2 class="feedback-form__item feedback-form__item_contacts">контактная информация:</h2>
 					<span class="feedback-form__rowline"></span>
 					<label class="feedback-form__contacts-input">
-						<span class="feedback-form__contacts-input-name"><span class="feedback-form__contacts-input-name_hide">Контактный</span> телефон*:</span>
+						<span class="feedback-form__contacts-input-name"><span
+								class="feedback-form__contacts-input-name_hide">Контактный</span> телефон*:</span>
 						<input type="text" class="feedback-form__input feedback-form__input-phone" placeholder="Введите телефон"
 							required>
 					</label>
@@ -135,7 +150,7 @@
 			</footer>
 		</div>
 	</div>
-
+	<script src="js/script.js"></script>
 </body>
 
 </html>

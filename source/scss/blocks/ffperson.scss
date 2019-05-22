@@ -14,6 +14,7 @@
   justify-content: space-between;
   line-height: 4em;
   margin-left: 10px;
+  position: relative;
 }
 .feedback-form__person-input-name {
   min-width: min-content;
@@ -43,6 +44,7 @@
     height: 58px;
     width: 100%;
     margin: 6.25px 0;
+    transition: height 0.8s ease-out;
   }
 }
 @media (min-width: 1200px) {
@@ -51,5 +53,38 @@
   }
   .feedback-form__person-input-name {
     padding-left: 80px;
+  }
+  .feedback-form__person-input:hover,
+  .feedback-form__person-input:focus,
+  .feedback-form__person-input:active {
+    height: 128px;
+    transition: height 0.8s ease-in;
+  }
+  .input-requirements {
+    position: absolute;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: left;
+    list-style: disc;
+    list-style-position: inside;
+    max-width: 400px;
+    margin: 10px auto;
+    color: rgb(150, 150, 150);
+    right: 70px;
+    line-height: 1.2rem;
+    bottom: -17px;
+    z-index: 9999;
+  }
+  input:not([type="submit"]) + .input-requirements {
+    overflow: hidden;
+    height: 0;
+    transition: height 1s ease-out;
+  }
+
+  input:not([type="submit"]):hover + .input-requirements,
+  input:not([type="submit"]):focus + .input-requirements,
+  input:not([type="submit"]):active + .input-requirements {
+    height: 40px; /* any large number (bigger then the .input-requirements list) */
+    transition: height 1s ease-in;
   }
 }

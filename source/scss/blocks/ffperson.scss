@@ -23,6 +23,9 @@
   margin-left: 5px;
   padding-right: 10px;
 }
+.input-requirements{
+  display: none;
+}
 
 @media (min-width: 768px) {
   .feedback-form__person {
@@ -87,7 +90,8 @@
     height: 40px; /* any large number (bigger then the .input-requirements list) */
     transition: height 1s ease-in;
   }
-  input-requirements li.invalid {
+
+  .input-requirements li.invalid {
     color: #e74c3c;
   }
   .input-requirements li.valid {

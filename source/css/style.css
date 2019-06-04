@@ -141,7 +141,7 @@ img {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
-    background-image: url(/img/logotype_tab.png);
+    background-image: url(/source/img/logotype_tab.png);
     padding-top: 0; }
   .header__image {
     height: 518px;

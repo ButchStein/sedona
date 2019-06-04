@@ -1,5 +1,5 @@
 .feedback-form__attraction {
-  background-image: url(/img/h_line.png);
+  background-image: url(../img/h_line.png);
   background-repeat: repeat-x;
   display: flex;
   flex-flow: row wrap;
@@ -30,7 +30,7 @@
   width: 3.2em;
   height: 3.2em;
   margin-left: -4.5em;
-  background-image: url(/img/checkbox_mob.png);
+  background-image: url(../img/checkbox_mob.png);
   background-repeat: no-repeat;
 }
 .feedback-form__checkbox:focus + .checkbox {
@@ -40,7 +40,7 @@
   outline-offset: -1px;
 }
 .feedback-form__checkbox:checked + .checkbox {
-  background-image: url(/img/checkbox_checked_mob.png);
+  background-image: url(../img/checkbox_checked_mob.png);
   background-repeat: no-repeat;
 }
 @media (min-width: 768px) {

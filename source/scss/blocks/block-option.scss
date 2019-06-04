@@ -20,7 +20,7 @@
   display: block;
   max-width: 100%;
   text-decoration: none;
-  background-image: url(/img/btn_bg.png);
+  background-image: url(../img/btn_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -36,7 +36,7 @@ img {
 }
 .block-option__img-wrap {
   height: 350px;
-  background-image: url(/img/map_mob.jpg);
+  background-image: url(../img/map_mob.jpg);
   background-size: cover;
   margin-top: 50px;
 }
@@ -59,7 +59,7 @@ img {
   }
   .block-option__img-wrap {
     height: 350px;
-    background-image: url(/img/map_tab.jpg);
+    background-image: url(../img/map_tab.jpg);
   }
 }
 @media (min-width: 1200px) {
@@ -67,6 +67,6 @@ img {
     padding: 0 33%;
   }
   .block-option__img-wrap {
-    background-image: url(/img/map_desk.jpg);
+    background-image: url(../img/map_desk.jpg);
   }
 }

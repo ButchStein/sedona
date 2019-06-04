@@ -23,16 +23,16 @@
   cursor: pointer;
 }
 .content__slider-image-first {
-  background-image: url(/img/slide_1_mob.jpg);
+  background-image: url(../img/slide_1_mob.jpg);
 }
 .content__slider-image-second {
-  background-image: url(/img/slide_2_mob.jpg);
+  background-image: url(../img/slide_2_mob.jpg);
 }
 .content__slider-image-third {
-  background-image: url(/img/slide_3_mob.jpg);
+  background-image: url(../img/slide_3_mob.jpg);
 }
 .content__slider-image-fourth {
-  background-image: url(/img/slide_4_mob.jpg);
+  background-image: url(../img/slide_4_mob.jpg);
 }
 .content__slider-image-description {
   font-size: 14px;
@@ -54,7 +54,7 @@
   font-weight: bold;
   text-align: left;
   padding-left: 35px;
-  background-image: url(/img/like_mob_icon.png);
+  background-image: url(../img/like_mob_icon.png);
   background-repeat: no-repeat;
   line-height: 2em;
   cursor: pointer;
@@ -93,16 +93,16 @@
     width: 50%;
   }
   .content__slider-image-first {
-    background-image: url(/img/slide_1_tab.jpg);
+    background-image: url(../img/slide_1_tab.jpg);
   }
   .content__slider-image-second {
-    background-image: url(/img/slide_2_tab.jpg);
+    background-image: url(../img/slide_2_tab.jpg);
   }
   .content__slider-image-third {
-    background-image: url(/img/slide_3_tab.jpg);
+    background-image: url(../img/slide_3_tab.jpg);
   }
   .content__slider-image-fourth {
-    background-image: url(/img/slide_4_tab.jpg);
+    background-image: url(../img/slide_4_tab.jpg);
   }
   .content__slider-image {
     width: 100%;
@@ -132,7 +132,7 @@
   }
 
   .content__slider-image-first {
-    background-image: url(/img/slide_1.jpg);
+    background-image: url(../img/slide_1.jpg);
     height: 400px;
   }
   .content__slider-item:nth-child(2) {
@@ -148,15 +148,15 @@
     height: 267px;
   }
   .content__slider-image-second {
-    background-image: url(/img/slide_2.jpg);
+    background-image: url(../img/slide_2.jpg);
     background-size: 100%;
   }
   .content__slider-image-third {
-    background-image: url(/img/slide_3.jpg);
+    background-image: url(../img/slide_3.jpg);
     background-size: 100%;
   }
   .content__slider-image-fourth {
-    background-image: url(/img/slide_4.jpg);
+    background-image: url(../img/slide_4.jpg);
     background-size: 100%;
   }
   .content__slider-image-description {
@@ -175,7 +175,7 @@
   .content__slider-image-score {
     position: absolute;
     color: #fff;
-    background-image: url(/img/like_desk_icon.png);
+    background-image: url(../img/like_desk_icon.png);
     margin: 0 20px 25px 0;
     bottom: 0;
     right: 0;
